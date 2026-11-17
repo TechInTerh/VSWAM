@@ -1,0 +1,20 @@
+[project]
+name = "xai-course"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "cudf-cu13>=26.10.2",
+    "cuml-cu13>=26.10.0",
+    "ipython>=9.18.1",
+    "kaggle>=2.2.5",
+    "kagglehub>=1.0.3",
+    "numba>=0.64.0",
+    "pandas>=3.0.6",
+    "plotly>=7.1.0",
+    "seaborn>=0.13.2",
+]
+[[tool.uv.index]]
+name = "nvidia"
+url = "https://pypi.nvidia.com"
