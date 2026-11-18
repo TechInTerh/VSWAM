@@ -1,0 +1,13 @@
+# Raw large Kaggle datasets (~3.8 GB), secrets, PDFs, reference notebooks, and caches
+dataset/
+.env
+.env.*
+!.env.example
+*.pdf
+explore_credit_loan_data.ipynb
+lending-club-loan-defaulters-prediction.ipynb
+.DS_Store
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.pytest_cache/
